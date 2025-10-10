@@ -1,0 +1,52 @@
+TUXMIO Open Hardware & Software License
+=======================================
+
+Copyright (c) 2025 TUXMIO Project
+
+This project includes both hardware and software components.
+
+──────────────────────────────
+SOFTWARE LICENSE (MIT)
+──────────────────────────────
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+──────────────────────────────
+HARDWARE LICENSE (CERN-OHL-P v2.0)
+──────────────────────────────
+The hardware designs in this repository are licensed under the
+CERN Open Hardware License Permissive, version 2.0.
+
+You may copy, modify, and distribute the hardware designs and documentation,
+including for commercial purposes, provided that this license notice and
+attribution to the original author are maintained.
+
+There is no requirement to share modifications, but sharing improvements is
+encouraged to support the open hardware community.
+
+Full license text:
+https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2
+
+──────────────────────────────
+Summary
+──────────────────────────────
+- Software/Firmware → MIT License
+- Hardware (schematics, PCB, 3D models) → CERN OHL-P v2.0
+- Attribution required; redistribution and modification allowed.
+- No obligation to release derivative works.
+- Keep it open if you can, but you’re free to use it as you wish.
