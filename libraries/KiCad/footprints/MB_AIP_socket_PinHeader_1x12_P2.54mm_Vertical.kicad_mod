@@ -1,4 +1,4 @@
-(footprint "AIP_socket_PinHeader_1x12_P2.54mm_Vertical"
+(footprint "MB_AIP_socket_PinHeader_1x12_P2.54mm_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
