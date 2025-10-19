@@ -4014,7 +4014,7 @@
 				(pin passive line
 					(at -5.08 12.7 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "IO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4032,7 +4032,7 @@
 				(pin passive line
 					(at -5.08 10.16 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Key_GPP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4050,7 +4050,7 @@
 				(pin passive line
 					(at -5.08 7.62 0)
 					(length 3.81)
-					(name "Pin_3"
+					(name "GND1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4068,7 +4068,7 @@
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "Pin_4"
+					(name "Key_GPP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4086,7 +4086,7 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_5"
+					(name "Diag"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_6"
+					(name "-10V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4122,7 +4122,7 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_7"
+					(name "0V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4140,7 +4140,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_8"
+					(name "+10V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4158,7 +4158,7 @@
 				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "Pin_9"
+					(name "N/A_Pin_9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4176,7 +4176,7 @@
 				(pin passive line
 					(at -5.08 -10.16 0)
 					(length 3.81)
-					(name "Pin_10"
+					(name "Key_GPP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4194,7 +4194,7 @@
 				(pin passive line
 					(at -5.08 -12.7 0)
 					(length 3.81)
-					(name "Pin_11"
+					(name "+24VDC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4212,7 +4212,7 @@
 				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 3.81)
-					(name "Pin_12"
+					(name "GND_24V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4603,7 +4603,7 @@
 				(pin passive line
 					(at -5.08 12.7 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "IO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4621,7 +4621,7 @@
 				(pin passive line
 					(at -5.08 10.16 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "A_Ref"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4639,7 +4639,7 @@
 				(pin passive line
 					(at -5.08 7.62 0)
 					(length 3.81)
-					(name "Pin_3"
+					(name "GND1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4657,7 +4657,7 @@
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "Pin_4"
+					(name "N/A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4675,7 +4675,7 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_5"
+					(name "Diag"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4693,7 +4693,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_6"
+					(name "-10V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4711,7 +4711,7 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_7"
+					(name "0V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4729,7 +4729,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_8"
+					(name "+10V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4747,7 +4747,7 @@
 				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "Pin_9"
+					(name "N/A_Pin_9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4765,7 +4765,7 @@
 				(pin passive line
 					(at -5.08 -10.16 0)
 					(length 3.81)
-					(name "Pin_10"
+					(name "Key_ICP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4783,7 +4783,7 @@
 				(pin passive line
 					(at -5.08 -12.7 0)
 					(length 3.81)
-					(name "Pin_11"
+					(name "+24VDC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4801,7 +4801,7 @@
 				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 3.81)
-					(name "Pin_12"
+					(name "GND_24V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5192,7 +5192,7 @@
 				(pin passive line
 					(at -5.08 12.7 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "IO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5210,7 +5210,7 @@
 				(pin passive line
 					(at -5.08 10.16 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Key_URP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5228,7 +5228,7 @@
 				(pin passive line
 					(at -5.08 7.62 0)
 					(length 3.81)
-					(name "Pin_3"
+					(name "GND1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5246,7 +5246,7 @@
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "Pin_4"
+					(name "N/A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5264,7 +5264,7 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_5"
+					(name "Diag"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5282,7 +5282,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_6"
+					(name "-10V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5300,7 +5300,7 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_7"
+					(name "0V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5318,7 +5318,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_8"
+					(name "+10V_b"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5336,7 +5336,7 @@
 				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "Pin_9"
+					(name "N/A_Pin_9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5354,7 +5354,7 @@
 				(pin passive line
 					(at -5.08 -10.16 0)
 					(length 3.81)
-					(name "Pin_10"
+					(name "N/A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5372,7 +5372,7 @@
 				(pin passive line
 					(at -5.08 -12.7 0)
 					(length 3.81)
-					(name "Pin_11"
+					(name "+24VDC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5390,7 +5390,7 @@
 				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 3.81)
-					(name "Pin_12"
+					(name "GND_24V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10576,7 +10576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07046b2e-863b-4651-969b-b4472f23e2f8")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 97.79 42.2909 0)
 			(effects
 				(font
@@ -10630,7 +10630,7 @@
 		(instances
 			(project "l2-mb-iop-standart"
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11582,7 +11582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "366195b1-0d21-4d9c-9f28-37d7ad4594a1")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 86.36 42.2909 0)
 			(effects
 				(font
@@ -11636,7 +11636,7 @@
 		(instances
 			(project ""
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -12183,7 +12183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8e347f-2a83-4d4c-881a-0481a825fdab")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 48.5775 35.56 0)
 			(effects
 				(font
@@ -12235,7 +12235,7 @@
 		(instances
 			(project ""
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12792,7 +12792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cafa8ea-f501-474d-919e-8b7eaa18d27c")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 60.96 43.1799 0)
 			(effects
 				(font
@@ -12846,7 +12846,7 @@
 		(instances
 			(project ""
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13235,7 +13235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd76f74-a2f4-4a87-a8d9-1a0f7199a777")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 97.79 85.4709 0)
 			(effects
 				(font
@@ -13289,7 +13289,7 @@
 		(instances
 			(project ""
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13602,7 +13602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92dc6dae-06f6-4135-abac-51fb807d1d7e")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 48.5775 26.67 0)
 			(effects
 				(font
@@ -13654,7 +13654,7 @@
 		(instances
 			(project "l2-mb-iop-standart"
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15567,7 +15567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46a51ad-65ad-4b77-ac8e-79375e015948")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 110.49 85.4709 0)
 			(effects
 				(font
@@ -15621,7 +15621,7 @@
 		(instances
 			(project "l2-mb-iop-standart"
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15868,7 +15868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec9ff6cc-9965-4f7d-8b6e-329a21703bff")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 85.09 86.3599 0)
 			(effects
 				(font
@@ -15922,7 +15922,7 @@
 		(instances
 			(project "l2-mb-iop-standart"
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -16368,7 +16368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f881ea58-1fb1-4be3-8531-caceb466188b")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 73.66 43.1799 0)
 			(effects
 				(font
@@ -16422,7 +16422,7 @@
 		(instances
 			(project "l2-mb-iop-standart"
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -16512,7 +16512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe8054a7-1a72-4032-b0c4-661a4791eccb")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 73.66 86.3599 0)
 			(effects
 				(font
@@ -16566,7 +16566,7 @@
 		(instances
 			(project ""
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)

@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1W, 1000 VDC isolated DC/DC converter, 24V input, 5V output, SIP"
+		(property "Datasheet" ""
 			(at 0 -8.128 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1W, 1000 VDC isolated DC/DC converter, 24V input, 5V output, SIP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -332,8 +332,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "tuxmio:DD4012SA"
+			(at -0.508 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,20 +368,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "DD4012SA_0_1"
+		(symbol "DD4012SA_1_1"
 			(rectangle
 				(start -8.89 2.54)
 				(end 8.89 -5.08)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "DD4012SA_1_1"
 			(pin power_in line
 				(at -11.43 0 0)
 				(length 2.54)
@@ -742,7 +740,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -760,7 +758,7 @@
 			(pin passive line
 				(at 5.08 10.16 180)
 				(length 3.81)
-				(name "Pin_2"
+				(name "A_Ref"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -778,7 +776,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -796,7 +794,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -814,7 +812,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -832,7 +830,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -850,7 +848,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -868,7 +866,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -886,7 +884,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -904,7 +902,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1202,7 +1200,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1220,7 +1218,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1238,7 +1236,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1256,7 +1254,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1274,7 +1272,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1292,7 +1290,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1310,7 +1308,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1328,7 +1326,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1346,7 +1344,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1690,7 +1688,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1708,7 +1706,7 @@
 			(pin passive line
 				(at 5.08 10.16 180)
 				(length 3.81)
-				(name "Pin_2"
+				(name "N/A_A_Ref"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1726,7 +1724,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1744,7 +1742,7 @@
 			(pin passive line
 				(at 5.08 5.08 180)
 				(length 3.81)
-				(name "Pin_4"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1762,7 +1760,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1780,7 +1778,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1798,7 +1796,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1816,7 +1814,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1834,7 +1832,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1852,7 +1850,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1870,7 +1868,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2214,7 +2212,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2232,7 +2230,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2250,7 +2248,7 @@
 			(pin passive line
 				(at 5.08 5.08 180)
 				(length 3.81)
-				(name "Pin_4"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2268,7 +2266,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2286,7 +2284,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2304,7 +2302,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2322,7 +2320,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2340,7 +2338,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2358,7 +2356,7 @@
 			(pin passive line
 				(at 5.08 -10.16 180)
 				(length 3.81)
-				(name "Pin_10"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2376,7 +2374,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2394,7 +2392,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2888,7 +2886,7 @@
 				)
 				(stroke
 					(width 0.1524)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3065,7 +3063,7 @@
 			(pin passive line
 				(at -5.08 12.7 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3083,7 +3081,7 @@
 			(pin passive line
 				(at -5.08 10.16 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "A_Ref"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3101,7 +3099,7 @@
 			(pin passive line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3119,7 +3117,7 @@
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "Key_AIP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3137,7 +3135,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3155,7 +3153,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3173,7 +3171,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3191,7 +3189,7 @@
 			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3209,7 +3207,7 @@
 			(pin passive line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3227,7 +3225,7 @@
 			(pin passive line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_10"
+				(name "Key_AIP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3245,7 +3243,7 @@
 			(pin passive line
 				(at -5.08 -12.7 0)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3263,7 +3261,7 @@
 			(pin passive line
 				(at -5.08 -15.24 0)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3678,7 +3676,7 @@
 			(pin passive line
 				(at -5.08 12.7 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3696,7 +3694,7 @@
 			(pin passive line
 				(at -5.08 10.16 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "Key_GPP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3714,7 +3712,7 @@
 			(pin passive line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3732,7 +3730,7 @@
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "Key_GPP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3750,7 +3748,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3768,7 +3766,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3786,7 +3784,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3804,7 +3802,7 @@
 			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3822,7 +3820,7 @@
 			(pin passive line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3840,7 +3838,7 @@
 			(pin passive line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_10"
+				(name "Key_GPP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3858,7 +3856,7 @@
 			(pin passive line
 				(at -5.08 -12.7 0)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3876,7 +3874,7 @@
 			(pin passive line
 				(at -5.08 -15.24 0)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5062,556 +5060,6 @@
 					)
 				)
 				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MEE1S0303SC"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "PS"
-			(at -7.62 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MEE1S0303SC"
-			(at 1.27 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT"
-			(at -26.67 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf"
-			(at 26.67 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1W, 1000 VDC isolated DC/DC converter, 3V3 input, 3V3 output, SIP"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "murata DC/DC isolated converter"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Converter*DCDC*Murata*MEE1SxxxxSC*THT*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MEE1S0303SC_0_0"
-			(pin power_in line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "+Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "-Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "+Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "-Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MEE1S0303SC_0_1"
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 0 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "MEE1S0303SC_1_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TMA-0505S"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -6.35 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TMA-0505S"
-			(at 2.54 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMA-05xxS_12xxS_Single_THT"
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tma.pdf"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1W DC/DC converter unregulated, 4.5-5.5V input, 5V fixed output voltage, 200mA output, 1.0kVDC isolation, SIP-7"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "Traco isolated isolation dc-dc converter not-regulated non-regulated single 1W"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Converter*DCDC*TRACO*TMA*05xx*Single*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TMA-0505S_0_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 0 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 0 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "TMA-0505S_1_1"
-			(pin power_in line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "+Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "-Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "+Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "-Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TSR_1-2450"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -7.62 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TSR_1-2450"
-			(at -1.27 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.tracopower.com/products/tsr1.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "dc-dc traco buck"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "Converter*DCDC*TRACO*TSR?1*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "TSR_1-2450_0_1"
-			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-		)
-		(symbol "TSR_1-2450_1_1"
-			(pin power_in line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "Vout"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

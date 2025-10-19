@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "1W, 1000 VDC isolated DC/DC converter, 24V input, 5V output, SIP"
+		(property "Datasheet" ""
 			(at 0 -8.128 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1W, 1000 VDC isolated DC/DC converter, 24V input, 5V output, SIP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -332,8 +332,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "tuxmio:DD4012SA"
+			(at -0.508 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +740,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -758,7 +758,7 @@
 			(pin passive line
 				(at 5.08 10.16 180)
 				(length 3.81)
-				(name "Pin_2"
+				(name "A_Ref"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -776,7 +776,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -794,7 +794,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -812,7 +812,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -830,7 +830,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -848,7 +848,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -866,7 +866,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -884,7 +884,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -902,7 +902,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1200,7 +1200,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1218,7 +1218,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1236,7 +1236,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1254,7 +1254,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1272,7 +1272,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1290,7 +1290,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1326,7 +1326,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1344,7 +1344,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1688,7 +1688,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1706,7 +1706,7 @@
 			(pin passive line
 				(at 5.08 10.16 180)
 				(length 3.81)
-				(name "Pin_2"
+				(name "N/A_A_Ref"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1724,7 +1724,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1742,7 +1742,7 @@
 			(pin passive line
 				(at 5.08 5.08 180)
 				(length 3.81)
-				(name "Pin_4"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1760,7 +1760,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1778,7 +1778,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1814,7 +1814,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1832,7 +1832,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1868,7 +1868,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2212,7 +2212,7 @@
 			(pin passive line
 				(at 5.08 12.7 180)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2230,7 +2230,7 @@
 			(pin passive line
 				(at 5.08 7.62 180)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 			(pin passive line
 				(at 5.08 5.08 180)
 				(length 3.81)
-				(name "Pin_4"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2266,7 +2266,7 @@
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2284,7 +2284,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2302,7 +2302,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2320,7 +2320,7 @@
 			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2338,7 +2338,7 @@
 			(pin passive line
 				(at 5.08 -7.62 180)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2356,7 +2356,7 @@
 			(pin passive line
 				(at 5.08 -10.16 180)
 				(length 3.81)
-				(name "Pin_10"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2374,7 +2374,7 @@
 			(pin passive line
 				(at 5.08 -12.7 180)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 			(pin passive line
 				(at 5.08 -15.24 180)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2886,7 +2886,7 @@
 				)
 				(stroke
 					(width 0.1524)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -3063,7 +3063,7 @@
 			(pin passive line
 				(at -5.08 12.7 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3081,7 +3081,7 @@
 			(pin passive line
 				(at -5.08 10.16 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "A_Ref"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3099,7 +3099,7 @@
 			(pin passive line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3117,7 +3117,7 @@
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "Key_AIP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3135,7 +3135,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3153,7 +3153,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3171,7 +3171,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3189,7 +3189,7 @@
 			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3207,7 +3207,7 @@
 			(pin passive line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3225,7 +3225,7 @@
 			(pin passive line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_10"
+				(name "Key_AIP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3243,7 +3243,7 @@
 			(pin passive line
 				(at -5.08 -12.7 0)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3261,7 +3261,7 @@
 			(pin passive line
 				(at -5.08 -15.24 0)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3676,7 +3676,7 @@
 			(pin passive line
 				(at -5.08 12.7 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3694,7 +3694,7 @@
 			(pin passive line
 				(at -5.08 10.16 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "Key_GPP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3712,7 +3712,7 @@
 			(pin passive line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3730,7 +3730,7 @@
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "Key_GPP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3748,7 +3748,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3766,7 +3766,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3784,7 +3784,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3802,7 +3802,7 @@
 			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3820,7 +3820,7 @@
 			(pin passive line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3838,7 +3838,7 @@
 			(pin passive line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_10"
+				(name "Key_GPP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3856,7 +3856,7 @@
 			(pin passive line
 				(at -5.08 -12.7 0)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3874,7 +3874,7 @@
 			(pin passive line
 				(at -5.08 -15.24 0)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4265,7 +4265,7 @@
 			(pin passive line
 				(at -5.08 12.7 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4283,7 +4283,7 @@
 			(pin passive line
 				(at -5.08 10.16 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "A_Ref"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4301,7 +4301,7 @@
 			(pin passive line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4319,7 +4319,7 @@
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4337,7 +4337,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4355,7 +4355,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4373,7 +4373,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4391,7 +4391,7 @@
 			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4409,7 +4409,7 @@
 			(pin passive line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4427,7 +4427,7 @@
 			(pin passive line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_10"
+				(name "Key_ICP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4445,7 +4445,7 @@
 			(pin passive line
 				(at -5.08 -12.7 0)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4463,7 +4463,7 @@
 			(pin passive line
 				(at -5.08 -15.24 0)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4854,7 +4854,7 @@
 			(pin passive line
 				(at -5.08 12.7 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4872,7 +4872,7 @@
 			(pin passive line
 				(at -5.08 10.16 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "Key_URP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4890,7 +4890,7 @@
 			(pin passive line
 				(at -5.08 7.62 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "GND1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4908,7 +4908,7 @@
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4926,7 +4926,7 @@
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "Diag"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4944,7 +4944,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "-10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4962,7 +4962,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "0V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4980,7 +4980,7 @@
 			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "+10V_b"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4998,7 +4998,7 @@
 			(pin passive line
 				(at -5.08 -7.62 0)
 				(length 3.81)
-				(name "Pin_9"
+				(name "N/A_Pin_9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5016,7 +5016,7 @@
 			(pin passive line
 				(at -5.08 -10.16 0)
 				(length 3.81)
-				(name "Pin_10"
+				(name "N/A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5034,7 +5034,7 @@
 			(pin passive line
 				(at -5.08 -12.7 0)
 				(length 3.81)
-				(name "Pin_11"
+				(name "+24VDC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5052,7 +5052,7 @@
 			(pin passive line
 				(at -5.08 -15.24 0)
 				(length 3.81)
-				(name "Pin_12"
+				(name "GND_24V"
 					(effects
 						(font
 							(size 1.27 1.27)
