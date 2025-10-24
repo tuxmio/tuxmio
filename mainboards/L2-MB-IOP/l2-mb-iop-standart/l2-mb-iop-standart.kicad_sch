@@ -5844,12 +5844,6 @@
 		(uuid "5a41c0c8-7078-405f-aefd-3f961a2c1136")
 	)
 	(junction
-		(at 303.53 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a915048-1987-48d8-8bb0-a5789a6a4e44")
-	)
-	(junction
 		(at 303.53 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5992,12 +5986,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82941de4-20ad-4312-a4f6-90292667160f")
-	)
-	(junction
-		(at 265.43 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8323efb4-40ff-4f79-a466-10f75c86dd99")
 	)
 	(junction
 		(at 321.31 210.82)
@@ -6684,16 +6672,16 @@
 		(uuid "68e652c8-d97e-46ce-b7a0-5e4ac1439375")
 	)
 	(no_connect
+		(at 303.53 147.32)
+		(uuid "736aff9b-9961-4898-88ec-d392a31d1c21")
+	)
+	(no_connect
 		(at 266.7 190.5)
 		(uuid "74c86382-d807-465f-a644-068931a093fc")
 	)
 	(no_connect
 		(at 275.59 185.42)
 		(uuid "75cc9f9d-4531-422a-bf23-ffb0ab7a6698")
-	)
-	(no_connect
-		(at 237.49 123.19)
-		(uuid "7bc1308f-e01c-46e9-a72b-a13b05edb68e")
 	)
 	(no_connect
 		(at 271.78 71.12)
@@ -6742,6 +6730,10 @@
 	(no_connect
 		(at 316.23 71.12)
 		(uuid "ab489022-7492-4315-b517-c4eb559071f4")
+	)
+	(no_connect
+		(at 265.43 134.62)
+		(uuid "b5001b0b-2966-4dd9-84dd-80e173840338")
 	)
 	(no_connect
 		(at 280.67 86.36)
@@ -6946,6 +6938,16 @@
 			(type default)
 		)
 		(uuid "08872d8b-db61-45b2-8924-55f881942345")
+	)
+	(wire
+		(pts
+			(xy 303.53 144.78) (xy 307.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0935d36d-203d-44f2-936b-7603710f68b4")
 	)
 	(wire
 		(pts
@@ -7279,7 +7281,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 130.81) (xy 265.43 130.81)
+			(xy 237.49 130.81) (xy 262.89 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7919,16 +7921,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 144.78) (xy 303.53 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e5fbbe-1925-4c62-8efb-41e747040274")
-	)
-	(wire
-		(pts
 			(xy 303.53 208.28) (xy 312.42 208.28)
 		)
 		(stroke
@@ -8046,16 +8038,6 @@
 			(type default)
 		)
 		(uuid "62acf143-0805-427f-a552-2c650128ef03")
-	)
-	(wire
-		(pts
-			(xy 303.53 147.32) (xy 307.34 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "638733fb-886d-44eb-933d-6ae42d47a0d6")
 	)
 	(wire
 		(pts
@@ -8469,6 +8451,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 148.59) (xy 307.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd3be91-ae1a-478c-809f-15279710ef1b")
+	)
+	(wire
+		(pts
 			(xy 284.48 210.82) (xy 293.37 210.82)
 		)
 		(stroke
@@ -8656,16 +8648,6 @@
 			(type default)
 		)
 		(uuid "88be706a-0444-4782-9272-9452e7b6627c")
-	)
-	(wire
-		(pts
-			(xy 265.43 134.62) (xy 265.43 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ff8c1d-312a-47c9-82e1-f183592ee14c")
 	)
 	(wire
 		(pts
@@ -9599,13 +9581,13 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 134.62) (xy 265.43 134.62)
+			(xy 262.89 130.81) (xy 262.89 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdef7dd7-d427-4a09-bd23-165d8bb6854f")
+		(uuid "cd192b11-21fe-47d1-9598-65b6ae8d895c")
 	)
 	(wire
 		(pts
@@ -10948,7 +10930,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 307.34 147.32 0)
+		(at 307.34 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10957,7 +10939,7 @@
 		(fields_autoplaced yes)
 		(uuid "0da37eb0-ed58-4b29-bcab-abb1c178dc17")
 		(property "Reference" "#PWR25"
-			(at 307.34 153.67 0)
+			(at 307.34 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +10948,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 307.34 152.4 0)
+			(at 307.34 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +10956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 147.32 0)
+			(at 307.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +10965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 147.32 0)
+			(at 307.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +10974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 307.34 147.32 0)
+			(at 307.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,13 +11037,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 130.81 0)
+		(property "Description" "Connector for reset external button."
+			(at 213.614 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12918,77 +12899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 232.41 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78cef780-2c63-411b-aa8e-fbbc61e92fc3")
-		(property "Reference" "J27"
-			(at 233.045 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 233.045 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 232.41 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 232.41 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "562c89ad-77ee-4c8d-b26f-c0c24127444a")
-		)
-		(pin "1"
-			(uuid "69b00b37-2279-4372-a63a-d60798857cc7")
-		)
-		(pin "2"
-			(uuid "ec132052-40d3-44d5-ab42-ca308f9c1871")
-		)
-		(instances
-			(project ""
-				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
-					(reference "J27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tuxmio:B240XS-1W")
 		(at 41.91 88.9 0)
 		(unit 1)
@@ -14229,13 +14139,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 153.67 0)
+		(property "Description" "Jumper for VIN"
+			(at 223.774 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14314,6 +14223,72 @@
 			(project ""
 				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
 					(reference "#PWR14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 232.41 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af4e0701-c6aa-4d72-8f1e-ca436d5dbd10")
+		(property "Reference" "J27"
+			(at 233.045 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 230.886 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector for AREF.  Jumper for +5VDC"
+			(at 211.074 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16ba9946-57ac-4efb-b409-896292022a5c")
+		)
+		(pin "1"
+			(uuid "695df677-7148-4254-a7b7-5e9c2f47f07f")
+		)
+		(instances
+			(project "l2-mb-iop-standart"
+				(path "/f25cfa12-e490-4a92-ab8c-1b3ce123d4e0"
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -15971,13 +15946,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 142.24 0)
+		(property "Description" "Jumper for 5V/3V3"
+			(at 220.98 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16038,13 +16012,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 191.77 76.2 0)
+		(property "Description" "Connecting GND and bipolar PS midpoint if it is not required galvanic seperation"
+			(at 150.622 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16237,13 +16210,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 191.77 64.77 0)
+		(property "Description" "Connecting GND and GND1 if it is not required galvanic seperation"
+			(at 157.988 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
