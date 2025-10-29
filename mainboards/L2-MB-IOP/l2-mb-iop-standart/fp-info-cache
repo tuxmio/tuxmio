@@ -1,4 +1,4 @@
-26248876595095701
+26247126242165129
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -104230,28 +104230,28 @@ DD4012SA
 3
 3
 tuxmio
-IO_AIP_connector_PinHeader_1x12_P2.54mm_Horizontal
+IO_AIP_PinHeader_1x12_P2.54mm_Horizontal
 Through hole angled pin header, 1x12, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x12 2.54mm single row
 0
 10
 10
 tuxmio
-IO_GPP_connector_PinHeader_1x12_P2.54mm_Horizontal
+IO_GPP_PinHeader_1x12_P2.54mm_Horizontal
 Through hole angled pin header, 1x12, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x12 2.54mm single row
 0
 9
 9
 tuxmio
-IO_ICP_connector_PinHeader_1x12_P2.54mm_Horizontal
+IO_ICP_PinHeader_1x12_P2.54mm_Horizontal
 Through hole angled pin header, 1x12, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x12 2.54mm single row
 0
 11
 11
 tuxmio
-IO_URP_connector_PinHeader_1x12_P2.54mm_Horizontal
+IO_URP_PinHeader_1x12_P2.54mm_Horizontal
 Through hole angled pin header, 1x12, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x12 2.54mm single row
 0
@@ -104272,28 +104272,28 @@ LM2596s_module
 8
 4
 tuxmio
-MB_AIP_socket_PinHeader_1x12_P2.54mm_Vertical
+MB_AIP_PinSocket_1x12_P2.54mm_Vertical
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
 Through hole pin header THT 1x12 2.54mm single row
 0
 12
 12
 tuxmio
-MB_GPP_socket_PinHeader_1x12_P2.54mm_Vertical
+MB_GPP_PinSocket_1x12_P2.54mm_Vertical
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
 Through hole pin header THT 1x12 2.54mm single row
 0
 12
 12
 tuxmio
-MB_ICP_socket_PinHeader_1x12_P2.54mm_Vertical
+MB_ICP_PinSocket_1x12_P2.54mm_Vertical
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
 Through hole pin header THT 1x12 2.54mm single row
 0
 12
 12
 tuxmio
-MB_URP_socket_PinHeader_1x12_P2.54mm_Vertical
+MB_URP_PinSocket_1x12_P2.54mm_Vertical
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
 Through hole pin header THT 1x12 2.54mm single row
 0
@@ -104306,10 +104306,3 @@ Switch-SPDT, 1x03, 2.54mm pitch, single row tumbler
 0
 3
 3
-tuxmio
-Untitled
-
-
-0
-0
-0

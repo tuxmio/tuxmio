@@ -1,4 +1,4 @@
-(footprint "MB_ICP_socket_PinHeader_1x12_P2.54mm_Vertical"
+(footprint "MB_AIP_PinSocket_1x12_P2.54mm_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "ICP_socket_PinHeader_1x12_P2.54mm_Vertical"
+	(property "Value" "AIP_PinSocket_1x12_P2.54mm_Vertical"
 		(at 0 30.32 0)
 		(layer "F.Fab")
 		(uuid "7adf0048-4eec-40a3-ba33-123760551dc3")
@@ -52,6 +52,16 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -1.5 7.62)
+		(end -3 7.62)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4896eddb-e071-4d39-8b71-ccaeb2b3f17a")
+	)
 	(fp_line
 		(start -1.5 22.86)
 		(end -3 22.86)
@@ -121,6 +131,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6ec7d0ed-9530-4795-81be-3be2223d1447")
+	)
+	(fp_line
+		(start 3 7.62)
+		(end 1.5 7.62)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7a584cd-2f8f-40ca-8c30-ffebfc6f8f1e")
 	)
 	(fp_line
 		(start 3 22.86)
@@ -330,7 +350,19 @@
 		(uuid "779f065a-005f-498d-8e29-3bd8bd87b97b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${SFDFFGD}/MB_AIP_PinSocket_1X12_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

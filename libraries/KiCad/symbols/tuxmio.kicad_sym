@@ -2702,7 +2702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tuxmio:MB_AIP_socket_PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "tuxmio:MB_AIP_PinSocket_1x12_P2.54mm_Vertical"
 			(at 0.254 -20.066 0)
 			(effects
 				(font
@@ -3303,7 +3303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tuxmio:MB_GPP_socket_PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "tuxmio:MB_GPP_PinSocket_1x12_P2.54mm_Vertical"
 			(at 0 -20.066 0)
 			(effects
 				(font
@@ -3391,18 +3391,6 @@
 				)
 				(stroke
 					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 6.35) (xy 1.27 3.81) (xy 1.27 6.35) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -3916,7 +3904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tuxmio:MB_ICP_socket_PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "tuxmio:MB_ICP_PinSocket_1x12_P2.54mm_Vertical"
 			(at 0.254 -19.812 0)
 			(effects
 				(font
@@ -4505,7 +4493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tuxmio:MB_URP_socket_PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "tuxmio:MB_URP_PinSocket_1x12_P2.54mm_Vertical"
 			(at 0 -20.066 0)
 			(effects
 				(font

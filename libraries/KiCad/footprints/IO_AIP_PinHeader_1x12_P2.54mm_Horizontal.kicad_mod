@@ -1,4 +1,4 @@
-(footprint "IO_ICP_connector_PinHeader_1x12_P2.54mm_Horizontal"
+(footprint "IO_AIP_PinHeader_1x12_P2.54mm_Horizontal"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "ICP_connector_PinHeader_1x12_P2.54mm_Horizontal"
+	(property "Value" "AIP_connector_PinHeader_1x12_P2.54mm_Horizontal"
 		(at 4.385 30.21 0)
 		(layer "F.Fab")
 		(uuid "51653021-0c6d-4109-a10f-0fb46bfaae0b")
@@ -111,26 +111,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4d55559b-7461-4978-887b-7b081e420db6")
-	)
-	(fp_line
-		(start 1.077358 7.19)
-		(end 1.39 7.19)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6327d4e9-5f8b-46ae-ac96-67068d7f5718")
-	)
-	(fp_line
-		(start 1.077358 8.05)
-		(end 1.39 8.05)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7383c5a1-6621-43db-81d4-9d46ed16fec3")
 	)
 	(fp_line
 		(start 1.077358 9.73)
@@ -333,6 +313,16 @@
 		(uuid "aedc640c-7234-47da-80f1-ccac6865a006")
 	)
 	(fp_line
+		(start 1.39 6.35)
+		(end 4.15 8.89)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "482d7f2e-fa27-4943-b78c-056b1aa729a4")
+	)
+	(fp_line
 		(start 1.39 8.89)
 		(end 4.15 8.89)
 		(stroke
@@ -463,14 +453,14 @@
 		(uuid "6d1221a3-e917-4902-bdc1-19d2df436001")
 	)
 	(fp_line
-		(start 4.15 7.19)
-		(end 10.15 7.19)
+		(start 4.15 6.35)
+		(end 1.39 8.89)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "2d0172ab-08d0-4d34-b866-4ed2e1abdc18")
+		(uuid "41cfd5fc-1e67-446c-b265-c2f6acc96431")
 	)
 	(fp_line
 		(start 4.15 9.73)
@@ -601,26 +591,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ac9f44e9-8da1-4101-a1fe-73833b8e8188")
-	)
-	(fp_line
-		(start 10.15 7.19)
-		(end 10.15 8.05)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fc1490b1-f5b5-4aca-9461-5f954a24352d")
-	)
-	(fp_line
-		(start 10.15 8.05)
-		(end 4.15 8.05)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c72458f8-88ab-4eae-b75f-e4071f823e5e")
 	)
 	(fp_line
 		(start 10.15 9.73)
@@ -902,36 +872,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "5f4eac4a-a16c-44e4-89cd-8cb8044f3d66")
-	)
-	(fp_line
-		(start -0.32 7.3)
-		(end -0.32 7.94)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "5e4c1f3c-c451-4309-a8d1-45552714f8d2")
-	)
-	(fp_line
-		(start -0.32 7.3)
-		(end 1.5 7.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ddd6a85c-2510-4419-bde3-a346148ac8dc")
-	)
-	(fp_line
-		(start -0.32 7.94)
-		(end 1.5 7.94)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7efc01f6-d5da-4208-82c9-cee1a5f1330b")
 	)
 	(fp_line
 		(start -0.32 9.84)
@@ -1244,26 +1184,6 @@
 		(uuid "04a7b979-885b-4279-b09b-4bca5f6b64f2")
 	)
 	(fp_line
-		(start 4.04 7.3)
-		(end 10.04 7.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "14e17000-910a-44da-b5c3-0228bc138551")
-	)
-	(fp_line
-		(start 4.04 7.94)
-		(end 10.04 7.94)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d20c39ec-f941-4215-9a35-0a6586693cc7")
-	)
-	(fp_line
 		(start 4.04 9.84)
 		(end 10.04 9.84)
 		(stroke
@@ -1444,16 +1364,6 @@
 		(uuid "a73ca189-e1e9-41b4-a40b-25a071e3cf92")
 	)
 	(fp_line
-		(start 10.04 7.3)
-		(end 10.04 7.94)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ae499452-a4ff-4d40-b0b7-6d9fc1ff39b1")
-	)
-	(fp_line
 		(start 10.04 9.84)
 		(end 10.04 10.48)
 		(stroke
@@ -1558,14 +1468,6 @@
 		(remove_unused_layers no)
 		(uuid "5e89e784-1d79-4300-b773-bcdd434e51e1")
 	)
-	(pad "4" thru_hole circle
-		(at 0 7.62)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a3462347-23ef-4b59-b59b-cb3f48c4798d")
-	)
 	(pad "5" thru_hole circle
 		(at 0 10.16)
 		(size 1.7 1.7)
@@ -1624,6 +1526,18 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Horizontal.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${SFDFFGD}/IO_AIP_PinHeader_1X12_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)
