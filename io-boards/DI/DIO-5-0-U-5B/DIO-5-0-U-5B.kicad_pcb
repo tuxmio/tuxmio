@@ -4681,7 +4681,7 @@
 	(footprint "tuxmio:KF141x_SMD"
 		(layer "F.Cu")
 		(uuid "fbfbb8b3-7476-4532-ac90-f9063d11945b")
-		(at 135.1 50.1)
+		(at 135 50)
 		(property "Reference" "J3"
 			(at -4.5 5.5 0)
 			(unlocked yes)

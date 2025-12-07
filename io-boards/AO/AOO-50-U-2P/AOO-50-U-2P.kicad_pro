@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -188,10 +188,10 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
         0.5,
         0.75,
         1.0,
+        1.2,
         1.5
       ],
       "tuning_pattern_settings": {
@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DIO-5-0-U-5B.kicad_pro",
+    "filename": "AOO-50-U-2P.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -508,7 +508,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "DIO-5-0-U-5B.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -578,12 +578,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -629,7 +647,7 @@
   },
   "sheets": [
     [
-      "6b5a44bf-f4b0-4ec6-a555-889af43cb641",
+      "03f200ab-a08a-4938-9ba3-d1a5d7610bb5",
       "Root"
     ]
   ],
