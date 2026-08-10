@@ -4,7 +4,7 @@ IO_J1 104, 80.47 tuxmio:KF141x_SMD
 
 Peripheral_Terminal 135, 50  Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal
 
-Peripheral_Bus 139.7, 60.24
+Peripheral_Bus 140, 60
 
 LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder
 
