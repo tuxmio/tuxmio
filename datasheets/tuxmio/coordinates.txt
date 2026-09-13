@@ -1,0 +1,13 @@
+	Edge.Cuts [100, 50; 149.5, 82.5]
+
+	IO_J1 [104, 80.22] tuxmio: 1x12 PinHeader IOB <-> MB
+
+	Peripheral_Terminal [135, 50]  terminal for wires KF141x_SMD 
+
+	Peripheral_Bus [140, 60]   Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal
+
+LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder
+
+	D1 [148.5; 70.5]
+
+	D2 [148.5; 78.5]

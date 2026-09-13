@@ -766,6 +766,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SM4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM4007"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*MELF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SM4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:SMAJ36A"
 			(pin_numbers
 				(hide yes)
@@ -2656,6 +2823,12 @@
 		(uuid "5f9154a7-2b0d-4630-b5fd-b197077c7115")
 	)
 	(junction
+		(at 241.3 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc2593a-faca-48ce-b86b-7a729a2f4fa0")
+	)
+	(junction
 		(at 135.89 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2690,6 +2863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a21eb134-7d1f-436d-9455-d89e6c094e44")
+	)
+	(junction
+		(at 128.27 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7c0b88a-fa8b-4658-b6c5-e4a9c5a67afa")
 	)
 	(junction
 		(at 207.01 114.3)
@@ -2788,6 +2967,16 @@
 			(type default)
 		)
 		(uuid "2e7fedf2-10d9-4861-8e0c-740a7d091c65")
+	)
+	(wire
+		(pts
+			(xy 128.27 125.73) (xy 128.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305456c8-bc31-4b2a-980e-d4b3d054d85b")
 	)
 	(wire
 		(pts
@@ -3011,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 127) (xy 130.81 127)
+			(xy 125.73 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -3031,6 +3220,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 62.23) (xy 241.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35f5004-92e2-4cf6-9b66-d9e06fe6536d")
+	)
+	(wire
+		(pts
 			(xy 251.46 96.52) (xy 251.46 101.6)
 		)
 		(stroke
@@ -3038,6 +3237,16 @@
 			(type default)
 		)
 		(uuid "b6e335d9-527e-4edb-8e5b-b85d4fcd10d4")
+	)
+	(wire
+		(pts
+			(xy 241.3 96.52) (xy 251.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ab0ce9-bc0c-41e4-83e0-dc0ed9459db0")
 	)
 	(wire
 		(pts
@@ -3051,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 96.52) (xy 251.46 96.52)
+			(xy 229.87 96.52) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3171,6 +3380,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 127) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c59a8a-66e5-45e5-a2cd-1abbbbb6de17")
+	)
+	(wire
+		(pts
 			(xy 203.2 62.23) (xy 203.2 67.31)
 		)
 		(stroke
@@ -3238,6 +3457,60 @@
 			(type default)
 		)
 		(uuid "ed240131-cc5a-4ead-b1d4-60583c695b86")
+	)
+	(wire
+		(pts
+			(xy 241.3 82.55) (xy 241.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd457845-74ff-4760-a8fb-257078bd9ccd")
+	)
+	(global_label "fly"
+		(shape input)
+		(at 128.27 125.73 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b51514ca-83fd-492a-89ff-31bd621bf770")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 120.3863 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "fly"
+		(shape input)
+		(at 241.3 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb8eb2cd-0f86-404f-a229-4f51d5c75810")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3 56.8863 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -3853,6 +4126,94 @@
 			(project ""
 				(path "/30fdd7bc-1110-4c31-98f3-91e8c10b2a68"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4007")
+		(at 241.3 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5443084a-f813-4331-b052-4a9c126711c8")
+		(property "Reference" "D5"
+			(at 243.84 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM4007"
+			(at 243.84 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF_Handsoldering"
+			(at 236.855 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, MELF"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb2edfd2-5d90-4d98-8ed7-e4d12388e00d")
+		)
+		(pin "2"
+			(uuid "532e63b2-418b-45f9-9b85-0b268d7c190d")
+		)
+		(instances
+			(project ""
+				(path "/30fdd7bc-1110-4c31-98f3-91e8c10b2a68"
+					(reference "D5")
 					(unit 1)
 				)
 			)

@@ -2091,6 +2091,16 @@
 		)
 		(uuid "45898f12-3669-4d08-834e-60aba6cc8497")
 	)
+	(text "Default values is for 5V uC.\nFor 3v3 uC D3 - BZD27C3V3P or similar 3V3 Zener; R4 - 10k ; R5 - 4k7"
+		(exclude_from_sim no)
+		(at 239.522 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79d118a0-9c53-4042-8e32-3fa8487a7be7")
+	)
 	(text "For future include LED for diagnostics????????\nIs it needed?"
 		(exclude_from_sim no)
 		(at 258.572 16.51 0)
@@ -3183,7 +3193,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"

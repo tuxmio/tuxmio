@@ -681,7 +681,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode_Bridge:ABS2"
+		(symbol "Diode_Bridge:MB8S"
 			(pin_names
 				(offset 0)
 			)
@@ -697,7 +697,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ABS2"
+			(property "Value" "MB8S"
 				(at 2.54 5.08 0)
 				(effects
 					(font
@@ -706,7 +706,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
+			(property "Footprint" "Package_SO:OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm"
 				(at 3.81 3.175 0)
 				(effects
 					(font
@@ -716,7 +716,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mb8s-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -725,7 +725,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package"
+			(property "Description" "Bridge Rectifier, 560V Vrms, 35A Ifsm, 0.5A If(av), SOIC-4 (Onsemi CASE 751EP)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -734,7 +734,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "rectifier acdc"
+			(property "ki_keywords" "Onsemi diode-bridge"
 				(at 0 0 0)
 				(effects
 					(font
@@ -743,7 +743,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Diode*Bridge*Diotec*ABS*"
+			(property "ki_fp_filters" "OnSemi?751EP?SOIC*3.9x4.725mm?P2.54mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -752,7 +752,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ABS2_0_1"
+			(symbol "MB8S_0_1"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy 0 -5.08) (xy 5.08 0) (xy 0 5.08) (xy -5.08 0)
@@ -862,7 +862,7 @@
 					)
 				)
 			)
-			(symbol "ABS2_1_1"
+			(symbol "MB8S_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -891,7 +891,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -909,7 +909,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2032,6 +2032,12 @@
 		(uuid "229daede-cdab-4165-8c49-e7e86efe646f")
 	)
 	(junction
+		(at 146.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3869992f-3893-4c54-b26e-2ff7e91d34ab")
+	)
+	(junction
 		(at 220.98 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2056,16 +2062,16 @@
 		(uuid "54b83ec7-5a5a-4815-a280-f3d7c1a7e7f4")
 	)
 	(junction
+		(at 149.86 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ff80044-46ff-4fd9-91e0-e45d201c1ec4")
+	)
+	(junction
 		(at 146.05 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71023643-f5fd-419b-83b4-c57edf7e4c7b")
-	)
-	(junction
-		(at 146.05 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7db9563b-181c-4d41-bc2f-da304ca341bf")
 	)
 	(junction
 		(at 140.97 130.81)
@@ -2078,12 +2084,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea0b52a-d587-4748-abd6-e44aa1bd3090")
-	)
-	(junction
-		(at 163.83 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce539ab4-7cd1-4e4a-bbc6-e84c7c622afe")
 	)
 	(junction
 		(at 232.41 102.87)
@@ -2109,7 +2109,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 163.83 68.58)
+			(xy 124.46 68.58) (xy 149.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 68.58) (xy 163.83 80.01)
+			(xy 149.86 68.58) (xy 149.86 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 163.83 80.01)
+			(xy 124.46 80.01) (xy 149.86 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2219,16 +2219,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 163.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3986f3ca-24fa-41a0-8397-099c64d6b1ca")
-	)
-	(wire
-		(pts
 			(xy 193.04 102.87) (xy 193.04 110.49)
 		)
 		(stroke
@@ -2239,13 +2229,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 80.01) (xy 163.83 90.17)
+			(xy 163.83 105.41) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47309b25-14af-44b5-a0fb-cf24362555dd")
+		(uuid "4d1382ca-80db-40f4-9db9-beaf2a462e08")
 	)
 	(wire
 		(pts
@@ -2289,16 +2279,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 146.05 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c593c81-2114-4587-a325-c4e0079def92")
-	)
-	(wire
-		(pts
 			(xy 220.98 102.87) (xy 220.98 105.41)
 		)
 		(stroke
@@ -2329,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 146.05 105.41)
+			(xy 146.05 82.55) (xy 146.05 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2396,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "86860dd4-2254-48a6-a46d-e32aaa20258c")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c53eddc-d5a4-4ebb-bf3c-07a5f8d6df98")
 	)
 	(wire
 		(pts
@@ -2476,6 +2466,16 @@
 			(type default)
 		)
 		(uuid "bdb90b29-8f12-4bea-9c81-cc5cff4a9631")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 146.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c3c0ff-72ed-43e1-a6b3-5967677b3684")
 	)
 	(wire
 		(pts
@@ -2576,6 +2576,16 @@
 			(type default)
 		)
 		(uuid "efe510c7-df4a-4b4e-bdbb-03a8efeaee84")
+	)
+	(wire
+		(pts
+			(xy 163.83 90.17) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e1c938-18de-4819-a4b2-3e2e7ccdf89b")
 	)
 	(wire
 		(pts
@@ -3225,6 +3235,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode_Bridge:MB8S")
+		(at 163.83 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa3ce8b-05e2-4aad-8717-39672440ab9b")
+		(property "Reference" "D2"
+			(at 172.72 91.3698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB8S"
+			(at 172.72 93.9098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm"
+			(at 167.64 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mb8s-d.pdf"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bridge Rectifier, 560V Vrms, 35A Ifsm, 0.5A If(av), SOIC-4 (Onsemi CASE 751EP)"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "914cbbf2-9ccb-4075-8733-f7bda1be5d2e")
+		)
+		(pin "3"
+			(uuid "5210dad5-7e5c-4293-92a1-3d1f2e0482c5")
+		)
+		(pin "4"
+			(uuid "8d3c2eae-9ec9-4102-a82b-ffea0fcda6c6")
+		)
+		(pin "1"
+			(uuid "05c4db6c-d418-4c3a-b81e-382613c7d4ce")
+		)
+		(instances
+			(project ""
+				(path "/6b5a44bf-f4b0-4ec6-a555-889af43cb641"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 232.41 109.22 180)
 		(unit 1)
@@ -3852,81 +3937,6 @@
 			(project "DIO-5-0-U-5B"
 				(path "/6b5a44bf-f4b0-4ec6-a555-889af43cb641"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode_Bridge:ABS2")
-		(at 163.83 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1af10cf-e27e-4c42-b1e0-c54b02993860")
-		(property "Reference" "D2"
-			(at 172.72 91.3698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ABS2"
-			(at 172.72 93.9098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Diode_Bridge_Diotec_ABS"
-			(at 167.64 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf"
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package"
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "53b63e87-ed69-4be1-88f9-e064e3a365a8")
-		)
-		(pin "2"
-			(uuid "49d97948-d25b-4327-afed-d9e29cd6e850")
-		)
-		(pin "3"
-			(uuid "4f477fa7-95ab-457b-8c56-c3edaba32036")
-		)
-		(pin "1"
-			(uuid "24d49dd2-a06f-47f8-af76-20b2ed2626b2")
-		)
-		(instances
-			(project ""
-				(path "/6b5a44bf-f4b0-4ec6-a555-889af43cb641"
-					(reference "D2")
 					(unit 1)
 				)
 			)
